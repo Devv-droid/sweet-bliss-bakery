@@ -1,1 +1,45 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff7f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
+/* Pink theme color */
+.text-pink {
+  color: #d63384;
+}
+
+/* Navbar custom styles */
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #d63384 !important;
+}
+
+.nav-link {
+  color: #555 !important;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: #d63384 !important;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa;
+  color: #888;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
